@@ -1,0 +1,15 @@
+[versions]
+asm = "9.9"
+gradlePluginPublish = "2.0.0"
+kotlin = "2.2.21"
+vineflower = "1.11.2"
+
+
+[libraries]
+asm = { group = "org.ow2.asm", name = "asm", version.ref = "asm" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+vineflower = { group = "org.vineflower", name = "vineflower", version.ref = "vineflower" }
+
+
+[plugins]
+gradle-pluginPublish = { id = "com.gradle.plugin-publish", version.ref = "gradlePluginPublish" }

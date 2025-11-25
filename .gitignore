@@ -1,0 +1,34 @@
+# Gradle - 构建产物和缓存
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local Configuration - 本地配置（包含 SDK 路径或密钥，绝对不能上传）
+local.properties
+gradle.properties
+
+# IntelliJ IDEA - IDE 配置文件
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Kotlin
+.kotlin/
+
+# MacOS - 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows - 系统文件
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# VS Code (如果你或协作者使用)
+.vscode/

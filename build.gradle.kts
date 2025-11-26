@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.gradle.pluginPublish)
 }
 
-group = "com.bqliang"
+group = "io.github.bqliang"
 version = "1.0.0"
 
 java {
@@ -32,7 +32,7 @@ gradlePlugin {
 
     plugins {
         register("ComposeDecompiler") {
-            id = "com.bqliang.compose-decompiler"
+            id = "io.github.bqliang.compose-decompiler"
             implementationClass = "com.bqliang.compose.decompiler.ComposeDecompilerPlugin"
 
             displayName = "Compose Decompiler"
